@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_orders # required
+    columns:
+      - name: order_id
+        description: Primary Key for Orders
+        tests:
+          - unique
+          - not_null
