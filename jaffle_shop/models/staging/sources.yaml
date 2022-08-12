@@ -7,6 +7,11 @@ sources:
     tables:
       - name: customers
       - name: orders #required
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
 
   - name: stripe # required
     database: d9rqcese3oj731
