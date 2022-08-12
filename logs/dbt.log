@@ -1,27 +1,9 @@
 
 
-============================== 2022-08-08 11:03:00.033666 | 8cb9ad27-a798-4e9c-afac-525a207cfb98 ==============================
-[0m11:03:00.033666 [info ] [MainThread]: Running with dbt=1.2.0
-[0m11:03:00.033666 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\carlo\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
-[0m11:03:00.033666 [debug] [MainThread]: Tracking: tracking
-[0m11:03:00.049666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3600FE6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3600FE280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3600FE3A0>]}
-[0m11:03:00.050666 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\carlo\.dbt
-[0m11:03:07.644264 [debug] [MainThread]: Starter project path: C:\Users\carlo\miniconda3\lib\site-packages\dbt\include\starter_project
-[0m11:03:09.900626 [info ] [MainThread]: Profile jaffle_shop written to C:\Users\carlo\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
-[0m11:03:09.900626 [info ] [MainThread]: 
-Your new dbt project "jaffle_shop" was created!
-
-For more information on how to configure the profiles.yml file,
-please consult the dbt documentation here:
-
-  https://docs.getdbt.com/docs/configure-your-profile
-
-One more thing:
-
-Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
-
-  https://community.getdbt.com/
-
-Happy modeling!
-
-[0m11:03:09.901625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3601AC5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3601ACAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D3601ACA90>]}
+============================== 2022-08-08 13:41:14.551790 | e320bc78-0453-4896-95c4-764ae3e2780e ==============================
+13:41:14.551790 [info ] [MainThread]: Running with dbt=1.0.0
+13:41:14.551790 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='C:\\Users\\carlo\\.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+13:41:14.561855 [debug] [MainThread]: Tracking: tracking
+13:41:14.577795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EFA8C0760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EFA8C0AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EFA8C08B0>]}
+13:41:17.761218 [debug] [MainThread]: Starter project path: C:\Users\carlo\miniconda3\lib\site-packages\dbt\include\starter_project
+13:41:23.640979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EFA8B14F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EFA8B1940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015EFA8B1A30>]}
