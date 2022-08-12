@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: jaffle_shop # required
+    database: d9rqcese3oj731
+    schema: dbt_dev
+    tables:
+      - name: customers
+      - name: orders #required
+
+  - name: stripe # required
+    database: d9rqcese3oj731
+    schema: dbt_dev
+    tables:
+      - name: payments
